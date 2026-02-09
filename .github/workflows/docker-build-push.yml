@@ -23,4 +23,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: fevzije/python-app:latest
+          tags:  |
+            fevzije/python-app:latest
+            fevzije/python-app:${{ github.sh }}
