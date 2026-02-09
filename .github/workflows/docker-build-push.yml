@@ -23,4 +23,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: aix/python-app:latest
+          tags: fevzije/python-app:latest
